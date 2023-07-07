@@ -14,8 +14,8 @@
 		4B10E1AD29A3CA0A00137546 /* TrailerFlix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B10E1AB29A3CA0A00137546 /* TrailerFlix.xcdatamodeld */; };
 		4B10E1AF29A3CA0C00137546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B10E1AE29A3CA0C00137546 /* Assets.xcassets */; };
 		4B10E1B229A3CA0C00137546 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B10E1B029A3CA0C00137546 /* LaunchScreen.storyboard */; };
-		4B10E1BA29A3CA6500137546 /* trailers.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B10E1B929A3CA6500137546 /* trailers.json */; };
 		4B10E1BC29A3D44100137546 /* TrailerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B10E1BB29A3D44100137546 /* TrailerViewController.swift */; };
+		4B2D74072A588B0B00ACCB20 /* trailers.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B2D74062A588B0B00ACCB20 /* trailers.json */; };
 		4BE3E97B29A401C10006E010 /* Trailer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE3E97A29A401C10006E010 /* Trailer.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,8 +29,8 @@
 		4B10E1AE29A3CA0C00137546 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B10E1B129A3CA0C00137546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B10E1B329A3CA0C00137546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B10E1B929A3CA6500137546 /* trailers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = trailers.json; path = "../../../../Downloads/Arquivos TrailerFlix/trailers.json"; sourceTree = "<group>"; };
 		4B10E1BB29A3D44100137546 /* TrailerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerViewController.swift; sourceTree = "<group>"; };
+		4B2D74062A588B0B00ACCB20 /* trailers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = trailers.json; sourceTree = "<group>"; };
 		4BE3E97A29A401C10006E010 /* Trailer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trailer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,7 +64,7 @@
 		4B10E1A129A3CA0A00137546 /* TrailerFlix */ = {
 			isa = PBXGroup;
 			children = (
-				4B10E1B929A3CA6500137546 /* trailers.json */,
+				4B2D74062A588B0B00ACCB20 /* trailers.json */,
 				4BE3E97A29A401C10006E010 /* Trailer.swift */,
 				4B10E1A229A3CA0A00137546 /* AppDelegate.swift */,
 				4B10E1A429A3CA0A00137546 /* SceneDelegate.swift */,
@@ -140,7 +140,7 @@
 				4B10E1B229A3CA0C00137546 /* LaunchScreen.storyboard in Resources */,
 				4B10E1AF29A3CA0C00137546 /* Assets.xcassets in Resources */,
 				4B10E1AA29A3CA0A00137546 /* Main.storyboard in Resources */,
-				4B10E1BA29A3CA6500137546 /* trailers.json in Resources */,
+				4B2D74072A588B0B00ACCB20 /* trailers.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
